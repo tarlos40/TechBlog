@@ -1,0 +1,15 @@
+/********** FOOTER LAYOUT **********/
+.footerContainer {
+    background-color: var(--color-primary);
+    bottom: 0;
+    clear: both;
+    color: var(--color-light);
+    font-family: var(--font-monospace);
+    font-weight: bold;
+    height: auto;
+    left: 0;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}

@@ -1,0 +1,54 @@
+/********** PAGE CONFIG **********/
+:root {
+    --color-dark: #212121;
+    --color-dark-gray: #1e1e1e;
+    --color-gray: #e6e6e6;
+    --color-light: #f9f9f9;
+    --color-primary: #3519e7;
+    --font-monospace: monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color-gray);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+/********** CLEAR *********/
+.clearBoth {
+    clear: both;
+}
+
+.clearLeft {
+    clear: left;
+}
+
+.clearRight {
+    clear: right;
+}
+
+/********** HORIZONTAL LINE **********/
+.horizontalLine {
+    background-color: var(--color-dark-gray);
+    height: 2px;
+    width: 100%;
+}
+
+/********** PAGE LAYOUT **********/
+.container {
+    background-color: var(--color-gray);
+    height: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    width: 80%;
+}

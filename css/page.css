@@ -1,0 +1,110 @@
+/********** CATEGORY LAYOUT **********/
+.categoryContainer {
+    background-color: var(--color-light);
+    border-radius: 5px;
+    float: right;
+    height: auto;
+    margin: 5px 0;
+    width: 30%;
+}
+
+/********** CATEGORY TEXT **********/
+.categoryText {
+    background-color: var(--color-gray);
+    border-radius: 5px;
+    color: var(--color-primary);
+    cursor: pointer;
+    display: block;
+    font-family: var(--font-monospace);
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px 10px;
+}
+
+.categoryText:hover {
+    background-color: var(--color-primary);
+    color: var(--color-gray);
+}
+
+/********** POST LAYOUT **********/
+.postContainer {
+    background-color: var(--color-light);
+    border-radius: 5px;
+    float: left;
+    height: auto;
+    width: 70%;
+}
+
+.postContent {
+    background-color: var(--color-gray);
+    border: 2px solid var(--color-primary);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: auto;
+}
+
+.postImage {
+    height: auto;
+    width: 100%;
+}
+
+/********** POST TEXT **********/
+.postAlt {
+    color: var(--color-dark-gray);
+    font-family: var(--font-monospace);
+    font-size: 1em;
+}
+
+.postContentTitle {
+    color: var(--color-primary);
+    font-family: var(--font-monospace);
+    padding: 5px;
+}
+
+/********** RECENT LAYOUT **********/
+.recentContainer {
+    background-color: var(--color-light);
+    border-radius: 5px;
+    float: right;
+    height: auto;
+    margin: 5px 0;
+    width: 30%;
+}
+
+/********** RECENT TEXT **********/
+.recentLink {
+    color: var(--color-primary);
+    float: right;
+    font-family: var(--font-monospace);
+    margin: 0 10px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.recentText {
+    background-color: var(--color-gray);
+    border-radius: 5px;
+    color: var(--color-dark-gray);
+    display: -webkit-box;
+    font-family: var(--font-monospace);
+    padding: 5px;
+    margin: 5px 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+/********** TITLE **********/
+.categoryTitle, .postTitle, .recentTitle {
+    background-color: var(--color-primary);
+    border-radius: 5px;
+    color: var(--color-light);
+    font-family: var(--font-monospace);
+    font-size: 1em;
+    font-weight: bold;
+    margin: 5px 10px;
+    padding: 5px;
+    text-align: center;
+}
